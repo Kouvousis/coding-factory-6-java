@@ -1,0 +1,24 @@
+package gr.aueb.cf.ch12;
+
+/**
+ * Like a client.
+ * 1. Creates an {@link Student} instance (alice)
+ * 2. Invokes public methods (setters / getters)
+ *
+ */
+public class StudentMain {
+
+    public static void main(String[] args) {
+        Student alice = new Student();
+        Student bob = new Student(2, "Bob", "D.");
+
+        alice.setId(1);
+        alice.setFirstname("Alice");
+        alice.setLastname("Wonderland");
+
+        System.out.println("Id: " + alice.getId());
+        System.out.println("Firstname: " + alice.getFirstname());
+        System.out.println("Lastname: " + alice.getLastname());
+
+    }
+}

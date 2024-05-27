@@ -1,6 +1,5 @@
 .idea/
 .git/
-CodingFactoryTestBed
 out/
 **/*.iml
 **/*.log
