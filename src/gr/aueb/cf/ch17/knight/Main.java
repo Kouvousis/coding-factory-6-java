@@ -16,7 +16,8 @@ public class Main {
         saintGeorge.embrakInMission(new IMission() {
             @Override
             public void embrak() {
-                System.out.println("Kill the dragon.");
+                //System.out.println("Kill the dragon.");
+                killTheDragon();
             }
         });
 
