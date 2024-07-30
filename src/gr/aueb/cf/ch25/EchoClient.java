@@ -23,6 +23,7 @@ public class EchoClient {
             String line = "";
 
             do {
+                System.out.println("Insert a string to echo");
                 line = in.nextLine();
                 pw.println(line);
                 pw.flush();
